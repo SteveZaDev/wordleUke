@@ -70,6 +70,14 @@ h1{
   cursor: pointer;
 }
 
+#pronounce{
+  font-size: 1.25rem;
+  background-color: blue;
+  cursor: pointer;
+  display: none;
+}
+
+
 i{
   cursor: pointer;
 }
@@ -92,12 +100,14 @@ header i{
 
 .title {
   color: var(--title-color);
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin: 0.4rem, 0 0.4rem 0;
   text-align: center;
   cursor: pointer;
 }
+
+
 
 #message-container {
   color: var(--title-color);

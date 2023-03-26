@@ -74,27 +74,19 @@ let protoWordsArray = [
       pro: "./pros/holdhand.m4a"
     }
     ]
-  } 
-/*    { 
-      cat: "Пісні Бітлз",
-      sel: false,
-      parent: "",
-      numOfItems: 0,
-      items: ["Довідка", "Я хочу тримати тебе за руку"],
-      },
+  },
   { 
-      cat: "Тестування",
-      sel: false,
-      parent: "",
-      numOfItems: 0,
-      items: ["ЙЦУКЕН", "ЗАБАВКА"],
-      }
-*/
-  /*,
-  , 
-  ,
-  , 
-  */
+    cat: "Testing",
+    sel: false,
+    parent: "",
+    numOfItems: 0,
+    items: [{
+      word: "Ілля Рєпін",
+      eng: "Ilya Repin",
+      pro: "./pros/repin.m4a"
+    }
+    ]
+  }  
 ]
 
 const backgroundImagesPortrait=[
@@ -164,6 +156,7 @@ let wordsArray=[]
 let keyboardClicks = false;
 
 let playButtonEl = ""
+let pronounceButtonEl = ""
 const containerEl = document.getElementById('container')
 let currentWordIndex = 0;
 let guessedWordCount = 0;
@@ -226,12 +219,18 @@ document.addEventListener("DOMContentLoaded", () => {
     r.style.setProperty('--correctLetterInPlace', randomColor);*/
    
     playButtonEl = document.getElementById("start")
+    pronounceButtonEl = document.getElementById("pronounce")
     randCatEl = document.getElementById("randcat")
    
 
     playButtonEl.addEventListener("click", ({ target }) => {
        letsPlay()
      })
+
+     
+    pronounceButtonEl.addEventListener("click", ({ target }) => {
+      pronounceWordle(150)
+    })
 
      randCatEl.addEventListener("click", ({ target }) => {
        console.log("clicked on category display");
@@ -298,6 +297,7 @@ gameInProgress = true;
   }
 
   playButtonEl.style.display = "none";
+  pronounceButtonEl.style.display = "none";
   messageContainerEl.innerText = ""
  // randomArray = wordsArray[Math.floor(Math.random()*wordsArray.length)];
   // MAKE SURE AT LEAST ONE SELECTED CATEGORY HAS AN ITEM THAT IS LESS THAN OR EQUAL TO MAX CHARACTERS ALLOWED
@@ -534,7 +534,7 @@ allElements.forEach((element) => {
         guess.color = 'correct-letter-in-place'
    //     console.log("guess letter2 = " + guess.letter + "   wordle letter = " + wordle[index])
         console.log ("set green overlay")
-        checkWordle = checkWordle.replace(guess.letter.toUpperCase(), '')
+        checkWordleUpper = checkWordleUpper.replace(guess.letter.toUpperCase(), '')
         console.log ("guess array = " + guess + " checkWordle = " + checkWordle)
         console.log (" ")
       }
@@ -559,7 +559,7 @@ allElements.forEach((element) => {
         } else {
         guess.color = 'correct-letter'
         console.log ("set yellow overlay")
-        checkWordle = checkWordle.replace(guess.letter.toUpperCase(), '')
+        checkWordleUpper = checkWordleUpper.replace(guess.letter.toUpperCase(), '')
         console.log ("guess array = " + guess + " checkWordle = " + checkWordle)
         console.log (" ")
       }
@@ -632,10 +632,8 @@ allElements.forEach((element) => {
       danceTiles(currentWordArr, firstLetterId);
 
       messageContainerEl.innerText = (`Congratulation! The wordle, ${wordle} means ${wordleEng}`)
-      setTimeout(function(){
-          const audioP = new Audio (audioPro);
-          audioP.play()
-       }, 2500);
+      pronounceWordle(2500);
+
 
 
 
@@ -657,8 +655,11 @@ allElements.forEach((element) => {
       }
 
       setTimeout(function(){
-        playButtonEl.innerText = "Play Again?";
+        // Play again
+        playButtonEl.innerText = "Грай знову?";
         playButtonEl.style.display = "block";
+        pronounceButtonEl.style.display = "block";
+
         messageContainerEl.innerText = ""
     }, 4500);
       const totalWins = window.localStorage.getItem("totalWins") || 0;
@@ -694,15 +695,14 @@ allElements.forEach((element) => {
       window.localStorage.setItem("currentStreak", 0);
       const audio = new Audio ("./auds/negative.mp3");
       audio.play()
-      setTimeout(function(){
-          const audioP = new Audio (audioPro);
-          audioP.play()
-       }, 2500);
-      
+      pronounceWordle(2500);
+
       updateTotalGames();     setTimeout(function(){
+        // Play again
         messageContainerEl.innerText = ""
-        playButtonEl.innerText = "Play Again?";
+        playButtonEl.innerText = "Грай знову?";
         playButtonEl.style.display = "block";
+        pronounceButtonEl.style.display = "block";
     }, 4500);
 
 
@@ -1931,4 +1931,11 @@ function initCategories(){
   } 
 
 
+}
+
+function pronounceWordle(delay){
+  setTimeout(function(){
+    const audioP = new Audio (audioPro);
+    audioP.play()
+ }, delay);
 }
