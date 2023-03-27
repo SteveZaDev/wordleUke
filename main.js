@@ -641,17 +641,17 @@ allElements.forEach((element) => {
 
 
       resultObj.guesses = guessedWordCount;
-      let resultsArrayTemp = JSON.parse(window.localStorage.getItem('results'));
+      let resultsArrayTemp = JSON.parse(window.localStorage.getItem('resultsU'));
       if (resultsArrayTemp){
-          resultsArray = JSON.parse(window.localStorage.getItem('results'));
+          resultsArray = JSON.parse(window.localStorage.getItem('resultsU'));
           console.log("New date right before push = " + resultObj.date)
           resultsArray.push(resultObj);
           console.log("Array after push = " + resultsArray);
           console.log ("item date just added = " + resultsArray[resultsArray.length-1].date);
-          window.localStorage.setItem('results', JSON.stringify(resultsArray));
+          window.localStorage.setItem('resultsU', JSON.stringify(resultsArray));
       } else {
         resultsArray[0] = resultObj;
-        window.localStorage.setItem('results', JSON.stringify(resultsArray));
+        window.localStorage.setItem('resultsU', JSON.stringify(resultsArray));
       }
 
       setTimeout(function(){
@@ -662,17 +662,17 @@ allElements.forEach((element) => {
 
         messageContainerEl.innerText = ""
     }, 4500);
-      const totalWins = window.localStorage.getItem("totalWins") || 0;
-      window.localStorage.setItem("totalWins", Number(totalWins) + 1);
+      const totalWins = window.localStorage.getItem("totalWinsU") || 0;
+      window.localStorage.setItem("totalWinsU", Number(totalWins) + 1);
 
-      const currentStreak = window.localStorage.getItem("currentStreak") || 0;
-      const maxStreak = window.localStorage.getItem("maxStreak") || 0;
+      const currentStreak = window.localStorage.getItem("currentStreakU") || 0;
+      const maxStreak = window.localStorage.getItem("maxStreakU") || 0;
       let text = "currenStreak = " + currentStreak + " maxStreak = " + maxStreak
    //   window.alert(text)
-      window.localStorage.setItem("currentStreak", Number(currentStreak) + 1);
+      window.localStorage.setItem("currentStreakU", Number(currentStreak) + 1);
       if ((Number(currentStreak)+1) > Number(maxStreak)){
    //     window.alert("updating max")
-        window.localStorage.setItem("maxStreak", Number(currentStreak) + 1);
+        window.localStorage.setItem("maxStreakU", Number(currentStreak) + 1);
       }
       updateTotalGames();
     //  removeKeyboardListeners();
@@ -681,18 +681,18 @@ allElements.forEach((element) => {
 
     if (guessedWords.length ===  numofGuesses && guessedWord !== wordle) {
       resultObj.guesses = 10;
-      let resultsArrayTemp = JSON.parse(window.localStorage.getItem('results'));
+      let resultsArrayTemp = JSON.parse(window.localStorage.getItem('resultsU'));
       if (resultsArrayTemp){
-          resultsArray = JSON.parse(window.localStorage.getItem('results'));
+          resultsArray = JSON.parse(window.localStorage.getItem('resultsU'));
           resultsArray.push(resultObj);
-          window.localStorage.setItem('results', JSON.stringify(resultsArray));
+          window.localStorage.setItem('resultsU', JSON.stringify(resultsArray));
       } else {
         resultsArray[0] = resultObj;
-        window.localStorage.setItem('results', JSON.stringify(resultsArray));
+        window.localStorage.setItem('resultsU', JSON.stringify(resultsArray));
       }
 
       messageContainerEl.innerText = (`Sorry, no more guesses. The wordle is ${wordle} which means ${wordleEng}`)
-      window.localStorage.setItem("currentStreak", 0);
+      window.localStorage.setItem("currentStreakU", 0);
       const audio = new Audio ("./auds/negative.mp3");
       audio.play()
       pronounceWordle(2500);
@@ -771,8 +771,8 @@ allElements.forEach((element) => {
   } // END OF handleSubmitWord
 
   function updateTotalGames(){
-    const totalGames = window.localStorage.getItem("totalGames") || 0;
-    window.localStorage.setItem("totalGames", Number(totalGames) + 1);
+    const totalGames = window.localStorage.getItem("totalGamesU") || 0;
+    window.localStorage.setItem("totalGamesU", Number(totalGames) + 1);
     gameInProgress = false;
     atLeastOneGuessMade = false;
   }
@@ -1235,10 +1235,10 @@ function initHelpModal() {
 }
 
 function updateStatsModal(){
-  const currentStreak = window.localStorage.getItem("currentStreak");
-  const maxStreak = window.localStorage.getItem("maxStreak");
-  const totalWins = window.localStorage.getItem("totalWins");
-  const totalGames = window.localStorage.getItem("totalGames");
+  const currentStreak = window.localStorage.getItem("currentStreakU");
+  const maxStreak = window.localStorage.getItem("maxStreakU");
+  const totalWins = window.localStorage.getItem("totalWinsU");
+  const totalGames = window.localStorage.getItem("totalGamesU");
   const audio = new Audio ("./auds/stats.mp3");
   audio.play()
 
@@ -1344,9 +1344,9 @@ function buildResults(){
 //      resultItemEl.innerText = "here are where results will go"
 //  resultsTrayEl.appendChild(resultItemEl)
 
-  let resultsArrayTemp = JSON.parse(window.localStorage.getItem('results'));
+  let resultsArrayTemp = JSON.parse(window.localStorage.getItem('resultsU'));
   if (resultsArrayTemp){
-      resultsArray = JSON.parse(window.localStorage.getItem('results'));
+      resultsArray = JSON.parse(window.localStorage.getItem('resultsU'));
       console.log("resultsArray =  " + resultsArray);
       console.log("results array date = " + resultsArray[resultsArray.length-1].date)
       date = new Date(resultsArray[resultsArray.length-1].date);
@@ -1477,10 +1477,10 @@ function initCategoriesModal() {
   // Look for category preferences in localstorage
   // if found apply those values to the protoarray
   console.log("add category local storage get logic")
-  let categoryPreferencesTemp = JSON.parse(window.localStorage.getItem('categoryPreferences'));
+  let categoryPreferencesTemp = JSON.parse(window.localStorage.getItem('categoryPreferencesU'));
 
   if (categoryPreferencesTemp) {
-    categoryPreferences = JSON.parse(window.localStorage.getItem('categoryPreferences'))
+    categoryPreferences = JSON.parse(window.localStorage.getItem('categoryPreferencesU'))
     console.log("prefernces = " + categoryPreferences)
     for (i=0; i<protoWordsArray.length; i++){
       protoWordsArray[i].sel = categoryPreferences[i]
@@ -1606,7 +1606,7 @@ function preserveCategories(){
       console.log(categoryPreferences[i])
       categoryPreferences[i] = protoWordsArray[i].sel
     }
-    window.localStorage.setItem('categoryPreferences', JSON.stringify(categoryPreferences));
+    window.localStorage.setItem('categoryPreferencesU', JSON.stringify(categoryPreferences));
 }
 
 
@@ -1634,7 +1634,7 @@ function revealLetter(){
 function initLook(){
       // Select background image based on portrait or landscape mode but first check for default
       const body = document.getElementsByTagName('body')[0];
-      let backgroundImage  = JSON.parse(window.localStorage.getItem('background'));
+      let backgroundImage  = JSON.parse(window.localStorage.getItem('backgroundU'));
       console.log("background from localstorage = " + backgroundImage)
   //    window.localStorage.setItem('background', JSON.stringify(resultsArray));
       if (backgroundImage === "Random" || !backgroundImage){
@@ -1705,7 +1705,7 @@ function initPreferencesModal() {
   const rndLandscapeEl = document.getElementById("random-bg-container");
   const rndPortraitEl = document.getElementById("portrait-random-bg-container");
   maxCharEl = document.getElementById("max-char")
-  maxCharacters = window.localStorage.getItem("maxChars") || 35;
+  maxCharacters = window.localStorage.getItem("maxCharsU") || 35;
   maxCharEl.value = maxCharacters;
 
   // Get the <span> element that closes the modal 
@@ -1741,7 +1741,7 @@ function initPreferencesModal() {
     initCategories();
     initCategoriesModal();
     console.log("maxCharacters converted to number = " + maxCharacters)
-    window.localStorage.setItem("maxChars", Number(maxCharacters));
+    window.localStorage.setItem("maxCharsU", Number(maxCharacters));
   });
 
   // When the user clicks anywhere outside of the modal, close it
@@ -1759,7 +1759,7 @@ function initPreferencesModal() {
         console.log("enter key pressed " + textAreaEl.value)
         const body = document.getElementsByTagName('body')[0];
         body.style.backgroundImage = "url(" + textAreaEl.value + ")"
-        window.localStorage.setItem('background', JSON.stringify(textAreaEl.value));
+        window.localStorage.setItem('backgroundU', JSON.stringify(textAreaEl.value));
       }
     });
 
@@ -1770,7 +1770,7 @@ function initPreferencesModal() {
       let randomImg = Math.floor(Math.random()*backgroundImagesLandscape.length)
       const body = document.getElementsByTagName('body')[0];
       body.style.backgroundImage = "url(" + backgroundImagesLandscape[randomImg] + ")"
-      window.localStorage.setItem('background', JSON.stringify("Random"));
+      window.localStorage.setItem('backgroundU', JSON.stringify("Random"));
     });
 
         // When the user clicks on the random portrait - randomly change the background
@@ -1779,7 +1779,7 @@ function initPreferencesModal() {
           let randomImg = Math.floor(Math.random()*backgroundImagesLandscape.length)
           const body = document.getElementsByTagName('body')[0];
           body.style.backgroundImage = "url(" + backgroundImagesLandscape[randomImg] + ")"
-          window.localStorage.setItem('background', JSON.stringify("Random"));
+          window.localStorage.setItem('backgroundU', JSON.stringify("Random"));
         });
     
 
@@ -1791,7 +1791,7 @@ function initPreferencesModal() {
         let bg = target.getAttribute("src");
         const body = document.getElementsByTagName('body')[0];
         body.style.backgroundImage = "url(" + bg + ")"
-        window.localStorage.setItem('background', JSON.stringify(bg));
+        window.localStorage.setItem('backgroundU', JSON.stringify(bg));
 
       });
       }
