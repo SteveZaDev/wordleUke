@@ -55,6 +55,21 @@ let protoWordsArray = [
       word: "Ілля Рєпін",
       eng: "Ilya Repin",
       pro: "./pros/repin.m4a"
+    },
+    {
+      word: "Володимир Зеленський",
+      eng: "Vladimir Zelensky",
+      pro: "./pros/zelensky.m4a"
+    },
+    {
+      word: "Валерій Борзов",
+      eng: "Valery Borzov",
+      pro: "./pros/borzov.m4a"
+    },
+    {
+      word: "Джек Паланс",
+      eng: "Jack Palance",
+      pro: "./pros/palance.m4a"
     }
     ]
   },
@@ -71,6 +86,21 @@ let protoWordsArray = [
     {
       word: "Я хочу тримати тебе за руку",
       eng: "I Want to Hold Your Hand",
+      pro: "./pros/holdhand.m4a"
+    },
+    {
+      word: "Вона тебе любить",
+      eng: "She Loves You",
+      pro: "./pros/holdhand.m4a"
+    },
+    {
+      word: "вчора",
+      eng: "Yesterday",
+      pro: "./pros/holdhand.m4a"
+    },
+    {
+      word: "Мішель",
+      eng: "Michelle",
       pro: "./pros/holdhand.m4a"
     }
     ]
@@ -137,7 +167,7 @@ TIPS - As far as game play goes, here a few differences from the original and so
 `
 
 
-let sound = true;
+let sound = false;
 let soundPlayer = "";
 let audioPro = "";
 let randomAudioIdx = Math.floor(Math.random()*audios.length)
@@ -1658,7 +1688,7 @@ function initLook(){
 
 
 function initAudio(){
-let icon = document.querySelector(".fa-volume-up");
+let icon = document.querySelector(".fa-volume-off");
 
 icon.onclick = function (){
     music();
