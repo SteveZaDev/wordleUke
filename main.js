@@ -283,6 +283,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }*/
 
 function letsPlay() {
+  messageContainerEl.innerText = ""
   // Clear the classes of the keyboard that were set in any previous Wordle
    initClasses();
 
@@ -340,7 +341,7 @@ gameInProgress = true;
   if (!weHaveCategory){
     messageContainerEl.innerText = "None of your selected categories have an item of " + maxCharacters + " characters or less. Please change either your category selection or maximum characters allowed."
     setTimeout(function(){
-      messageContainerEl.innerText = ""
+    //  messageContainerEl.innerText = ""
       playButtonEl.innerText = "Resume Play?";
       playButtonEl.style.display = "block";
   }, 6500);
@@ -690,7 +691,7 @@ allElements.forEach((element) => {
         playButtonEl.style.display = "block";
         pronounceButtonEl.style.display = "block";
 
-        messageContainerEl.innerText = ""
+    //    messageContainerEl.innerText = ""
     }, 4500);
       const totalWins = window.localStorage.getItem("totalWinsU") || 0;
       window.localStorage.setItem("totalWinsU", Number(totalWins) + 1);
@@ -729,7 +730,7 @@ allElements.forEach((element) => {
 
       updateTotalGames();     setTimeout(function(){
         // Play again
-        messageContainerEl.innerText = ""
+     //   messageContainerEl.innerText = ""
         playButtonEl.innerText = "Грай знову?";
         playButtonEl.style.display = "block";
         pronounceButtonEl.style.display = "block";
