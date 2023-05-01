@@ -1166,7 +1166,7 @@ function initMisc(){
     console.log ("key in handleKeystroke function2 - "  + letter)
   } else {
     //  let alpha = "abcdefghijklmnopqurstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ";
-      let alpha = "йцукенгшщзхїфівапроджєячсмитьбюЙЦУКЕНГШЩЗХЇФІВАПРОДЖЄЯЧСМИТЬБЮ ";
+      let alpha = "йцукенгшщзхїфівапролджєячсмитьбюЙЦУКЕНГШЩЗХЇФІВАПРОЛДЖЄЯЧСМИТЬБЮ ";
       let result = alpha.includes(letter);
       if (!result){
         return;
