@@ -273,9 +273,9 @@ const audios=[ {name: "default",
          
 
 
-             let helpText = `українська wordle is a Ukrainian version of Wordle with an option of choosing the length of your words. Select the Categories icon (2nd from right) and choose words from 5 to 12 letters long. If you choose multiple word lengths, each game will randomly choose between the lengths you have chosen. українська wordle can also serve as a learning tool for introducing Ukrainian. 
+             let helpText = `українська wordle is a Ukrainian version of Wordle that also has an option of choosing the length of your words. Select the Categories icon (2nd from right) and choose words from 5 to 12 letters long. If you choose multiple word lengths, each game will randomly choose between the lengths you have chosen. українська wordle can also serve as a learning tool for introducing Ukrainian words phrases and pronunciation. Just click or tap on the keys displayed. No special keyboard is required. However, if on a desktop device and you wish to load your Ukrainian keyboard emulator, this site will accept that input as well.   
              <br>
-             \u00A0\u00A0\u00A0I have not been able to find a free dictionary api to validate the guessed words, so any combination of letters will be accepted. Of course, your can limit yourself by entering only valid words. If Spanish is not your native tongue or as more letters are included and it gets more difficult to think up words, you can use the following list to find valid words. -
+             \u00A0\u00A0\u00A0I have not been able to find a free dictionary api to validate the guessed words, so any combination of letters will be accepted. Of course, your can limit yourself by entering only valid words. If Ukrainian is not your native tongue or as more letters are included and it gets more difficult to think up words, you can use the following list to find valid words. -
              <br>
              \u00A0\u00A0\u00A0 <a href="https://app.memrise.com/course/772935/ukrainian-20k-words-ordered-by-frequency/1/" target="_blank">20000 words sorted by frequency</a>
              <br>
@@ -361,23 +361,6 @@ document.addEventListener("DOMContentLoaded", () => {
     initLook();
     
 
-
-  // THIS WORKS IN CASE I WANT TO RANDOMIZE TILE COLORS 
-  /*
-    let r = document.querySelector(':root');
-    let colorNum = Math.floor(Math.random()*120);
-    let randomColor = "";
-    randomColor =  "hsl(" + colorNum + ", 51%, 47%)"
-    r.style.setProperty('--incorrectLetter', randomColor);
-    
-    colorNum = colorNum + 120;
-    randomColor =  "hsl(" + colorNum + ", 51%, 47%)"
-    r.style.setProperty('--correctLetter', randomColor);
-    colorNum = colorNum + 120;
-
-    randomColor =  "hsl(" + colorNum + ", 51%, 47%)"
-    r.style.setProperty('--correctLetterInPlace', randomColor);*/
-   
     playButtonEl = document.getElementById("start")
     pronounceButtonEl = document.getElementById("pronounce")
     randCatEl = document.getElementById("randcat")
@@ -2004,6 +1987,17 @@ for (i=0; i<6; i++){
         window.localStorage.setItem('backgroundU', JSON.stringify(textAreaEl.value));
       }
     });
+
+
+
+    textAreaEl.addEventListener("selectionchange", function (event) {
+  //    editLandscapeImgEl.src = landscapeTextEl.value
+      const body = document.getElementsByTagName('body')[0];
+      body.style.backgroundImage = "url(" + textAreaEl.value + ")"
+      window.localStorage.setItem('backgroundU', JSON.stringify(textAreaEl.value));
+  });
+
+
 
 
     // When the user clicks on the random landscpape - randomly change the background

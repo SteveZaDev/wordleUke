@@ -229,7 +229,9 @@ button.correct-letter-in-place {
  /* border-color: rgb(83, 141, 78);*/
 }
 
-
+#pronounce{
+  display: none;
+}
 
 /* MODAL POPUP CSS  */
 #help-modal {
