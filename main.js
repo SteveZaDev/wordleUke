@@ -106,37 +106,154 @@ let protoWordsArray = [
     ]
   },
   { 
-    cat: "Testing",
+    cat: "5 Letter Words",
     sel: false,
     parent: "",
     numOfItems: 0,
     items: [{
-      word: "Ілля Рєпін",
-      eng: "Ilya Repin",
-      pro: "./pros/repin.m4a"
+      word: "йдуть",
+      eng: "GOING",
+      pro: ""
+    },
+    {
+      word: "йонів",
+      eng: "IONS",
+      pro: ""
     }
+    ,
+    {
+      word: "йоган",
+      eng: "A YOGI",
+      pro: ""
+    },
+    {
+      word: "цвяхи",
+      eng: "NAILS",
+      pro: ""
+    },
+    {
+      word: "цвіте",
+      eng: "BLOOMS",
+      pro: ""
+    },
+    {
+      word: "цегла",
+      eng: "BRICK",
+      pro: ""
+    },
+    {
+      word: "цезій",
+      eng: "CESIUM",
+      pro: ""
+    },
+    {
+      word: "целль",
+      eng: "CELL",
+      pro: ""
+    },
+    {
+      word: "центр",
+      eng: "CENTER",
+      pro: ""
+    },
+    {
+      word: "цісар",
+      eng: "EMPEROR",
+      pro: ""
+    }
+    ]
+  },  
+  { 
+    cat: "6 Letter Words",
+    sel: false,
+    parent: "",
+    numOfItems: 0,
+    items: [{
+      word: "цариця",
+      eng: "QUEEN",
+      pro: ""
+    }
+    ]
+  },
+  { 
+    cat: "7 Letter Words",
+    sel: false,
+    parent: "",
+    numOfItems: 0,
+    items: [{
+      word: "цариця",
+      eng: "QUEEN",
+      pro: ""
+    }
+    ]
+  }, 
+  { 
+    cat: "8 Letter Words",
+    sel: false,
+    parent: "",
+    numOfItems: 0,
+    items: [{
+      word: "цариця",
+      eng: "QUEEN",
+      pro: ""
+    }
+    ]
+  }, 
+  { 
+    cat: "9 Letter Words",
+    sel: false,
+    parent: "",
+    numOfItems: 0,
+    items: [{
+      word: "здатність",
+      eng: "ABILITY",
+      pro: ""
+    }
+    ]
+  }, 
+  { 
+    cat: "10 Letter Words",
+    sel: false,
+    parent: "",
+    numOfItems: 0,
+    items: [{
+      word: "цариця",
+      eng: "QUEEN",
+      pro: ""
+    }
+    ]
+  },     
+
+  { 
+    cat: "Testing",
+    sel: false,
+    parent: "",
+    numOfItems: 0,
+    items: [    {
+      word: "на добраніч",
+      eng: "Good Night",
+      pro: "./pros/goodnight.m4a"
+    },
     ]
   }  
 ]
 
 const backgroundImagesPortrait=[
- // "https://images.pexels.com/photos/1834407/pexels-photo-1834407.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "https://images.pexels.com/photos/2627945/pexels-photo-2627945.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg",
-  "https://images.pexels.com/photos/221502/pexels-photo-221502.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "https://cdn.pixabay.com/photo/2017/08/31/11/35/alps-2700403_960_720.jpg",
-  "https://images.unsplash.com/photo-1543837173-6c26bc89937b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXV0dW1ufGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-  "https://images.unsplash.com/photo-1553114836-026cecec9778?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fG5hdHVyZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60"
-//  "https://cdn.pixabay.com/photo/2023/01/22/12/17/flower-7736238__340.jpg"
+  "https://pixnio.com/free-images/2021/07/24/2021-07-24-12-09-10-576x864.jpg",
+  "https://i.pinimg.com/originals/bf/e3/79/bfe3792a264b8b18367e05a709346a56.jpg",
+  "https://i.pinimg.com/originals/af/e1/ea/afe1eae9703cebba531ceedf5d89ed17.jpg",
+  "https://i.pinimg.com/originals/8b/98/30/8b9830ebf8d54d52e850717cc62b93a5.jpg",
+  "https://i.pinimg.com/originals/15/fd/ce/15fdcef034b654d1b9d5a91ecbe17127.jpg",
+  "https://i.pinimg.com/originals/16/90/60/16906066551db63677fb232d8e22e30b.jpg"
 ]
 
 const backgroundImagesLandscape=[
-  "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1600",
-  "https://cdn.pixabay.com/photo/2021/01/09/20/23/road-5903402__340.jpg",
-  "https://images.pexels.com/photos/221502/pexels-photo-221502.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "https://cdn.pixabay.com/photo/2017/08/31/11/35/alps-2700403_960_720.jpg",
-  "https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  "https://images.unsplash.com/photo-1566155119454-2b581dd44c59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHNwcmluZ3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+  "https://wallpaperaccess.com/full/1330415.jpg",
+  "https://s1.1zoom.me/b5050/956/Ukraine_Houses_Autumn_Scenery_Zakarpattia_Hill_533494_3840x2160.jpg",
+  "https://nucc.no/wp-content/uploads/2020/03/Lviv-1536x1024.jpeg",
+  "https://ukrainecitytours.com/wp-content/uploads/2019/09/Lviv.jpg",
+  "https://cdn.wallpapersafari.com/91/69/ZGz0cV.jpg",
+  "http://touchukraine.com/wp-content/uploads/2017/03/Kyiv-tours2.jpg"
 ]
 
 const audios=[ {name: "default",
@@ -153,19 +270,29 @@ const audios=[ {name: "default",
               }
              ]
 
-let helpText = `This version of WORDLE, plays like a cross between Wordle and Wheel of Fortune. Instead of solving for a 5 letter word, you will be trying to figure out an item belonging to a particular category. The answer can be anywhere from 4 to 20+ characters and can include spaces. The default category is US Presidents, but you can select your own by clicking on the 2nd icon from the right. All available categories will be displayed along with the number of items in that category. The active ones will be in black, the inactive in gray. Click to toggle each category. As in the original WORDLE, stats are provided. Click on the bar-graph icon for a summary, then i, for more info. 
-TIPS - As far as game play goes, here a few differences from the original and some suggestions. First off, for any response over 10 characters, you will get 8 guesses. The game does not check for valid words, names, or places, so gibberish is allowed. In fact, it may be your best strategy. Long solutions will likely be multi-word solutions, and you may want to find those word breaks by entering all spaces for your first guess. (Click the duplicate icon and spaces will be filled in from your current position in the row). Green spaces will indicate the word breaks. If you select multiple categories and are flummoxed, click on the mag glass icon to display the random category chosen by the game.
-***Solving tip - On especially long wordles, after several guesses have been made, the game board can look quite busy. Click or tap the title 'WORLDLE' and the current row will be filled with all of the letters that you have correctly guessed. This often results in an a-ha moment when the solution jumps out at you. Then backup thru the word via the delete key and then fill in the blanks with your solution. 
---Note - on narrow screens, wordles over 21 letters will be cut off at 21.
-***Customize - You can customize your WORLDLE experience to some degree by selecting the gear shaped icon. 
---Choose your background - The top icon (with 6 little pics inside), will select a random background pic for each session. Below that are 6 photos, choose any one of them and that will be your background. There is also an input field where you can paste a link to any image on the web that you can get a direct link to. Paste in the link, press enter and your background will change. This works well on desktops but is hit or miss on mobile. 
---If you prefer shorter WORLDLES to solve, you can limit the maximum number of characters to anything 5 and over, the lower you go, available categories will be limited.
---Set your background audio to any of those listed. You can always turn off your background audio via the audio icon (third from the right.)
---Chameleon Mode offers an additional twist to your play. Instead of the traditional Wordle tile colors of dark gray, yellow and green, Chameleon Mode will set random colors for those tiles that are usually yellow and green. Dark gray for 'incorrect' will remain as usual, but the tile color for correctly placed letters and those that are contained within the word but not correctly placed will vary, and you have to figure that out.
-----------------
-----------------
-`
+         
 
+
+             let helpText = `українська wordle is a Ukrainian version of Wordle with an option of choosing the length of your words. Select the Categories icon (2nd from right) and choose words from 5 to 12 letters long. If you choose multiple word lengths, each game will randomly choose between the lengths you have chosen. українська wordle can also serve as a learning tool for introducing Ukrainian. 
+             <br>
+             \u00A0\u00A0\u00A0I have not been able to find a free dictionary api to validate the guessed words, so any combination of letters will be accepted. Of course, your can limit yourself by entering only valid words. If Spanish is not your native tongue or as more letters are included and it gets more difficult to think up words, you can use the following list to find valid words. -
+             <br>
+             \u00A0\u00A0\u00A0 <a href="https://app.memrise.com/course/772935/ukrainian-20k-words-ordered-by-frequency/1/" target="_blank">20000 words sorted by frequency</a>
+             <br>
+             <br>
+             \u00A0\u00A0\u00A0You can customize the game to some degree by selecting the second icon from the left. In the "Choose Background" section, select a varying background by clicking on the top image with 6 smaller images inside. Each time you start a new game, the background will be one of those pics, selected at random. Or, choose one of the 6 larger images to set that as your background. A third option is to grab a direct link to any image on the web and to paste that link into the field provided.   
+             <br>
+             - You can change the background audio 
+             <br>
+             - Chameleon Mode varies the colors of the tiles that indicate inclusion and correct placement of the letters.
+             <br>
+             You can also toggle whether you want the words you enter to be valid words. As mentioned above, since no dictionary is available this option would check what you enter against the words defined within this site. Since there are currently only ${protoWordsArray[3].items.length} 5-letter words, this option would not make any sense and would not be viable until maybe 1000 or so words are included.
+             <br>    
+             <br>
+             <br>
+             `             
+             
+             let viewHelpText = `Thanks for playing українська Wordle. Please view the Help "?" icon for useful tips and hints `
 
 let sound = false;
 let soundPlayer = "";
@@ -178,6 +305,8 @@ soundPlayer.volume = audios[randomAudioIdx].vol
 soundPlayer.currentTime = 1;
 const maxLettersNarrowScreen = 21;
 let chameleon = false;
+let validate = false;
+
 DANCE_ANIMATION_DURATION = 1500;
 
 
@@ -224,6 +353,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initPreferencesModal();
     initCategories();
     initHelpModal();
+    initViewHelpModal();
     initStatsModal();
     initCategoriesModal();
     initCategoriesModalBtn();
@@ -530,6 +660,32 @@ allElements.forEach((element) => {
       messageContainerEl.innerText = (`You entered ${currentWordArr.length} characters which is less than the ${numofLetters} needed`);
       return;
     }
+
+    if (validate){
+      console.log("randomarray = " + randomArray)
+      let found = false;
+      for (i=0; i<wordsArray[randomArray].items.length; i++){
+        console.log("array = " + i +  " " + wordsArray[randomArray].items[i].word)
+        console.log("guessedword = " + guessedWord.toUpperCase())
+        if (wordsArray[randomArray].items[i].word === guessedWord){
+          found = true;
+          console.log("word found")
+          i = wordsArray[randomArray].items.length;
+        }
+      }
+
+      
+
+      if (!found){
+        messageContainerEl.innerText = (`${guessedWord.toUpperCase()} was not found in dictionary`);
+        const audio = new Audio ("./auds/pop39222.mp3");
+        audio.play() 
+        return;
+      }
+    }
+
+
+
     window.navigator.vibrate(450);
     //flipTile();
 
@@ -662,7 +818,7 @@ allElements.forEach((element) => {
       audio.play()
       danceTiles(currentWordArr, firstLetterId);
 
-      messageContainerEl.innerText = (`Congratulation! The wordle, ${wordle} means ${wordleEng}`)
+      messageContainerEl.innerText = (`Congratulation! The wordle ${wordle}, means ${wordleEng}`)
       pronounceWordle(2500);
 
 
@@ -987,7 +1143,7 @@ function initMisc(){
       console.log("duping spaces");
    //   const audio = new Audio ("./auds/hard-keypress.wav");  
    //   audio.play()
-      for (i=1; i<maxCharacters; i++){
+      for (i=1; i<maxCharacters+1; i++){
         updateGuessedLetters(' ');
       }
       console.log("done with loop of spaces");
@@ -1246,9 +1402,11 @@ function initHelpModal() {
     console.log("just clicked on help button")
     modal.style.display = "block";
     helpEl = document.querySelector(".modal-body")
-    helpEl.innerText = helpText + "\n" + "\n"
+    helpEl.innerHTML = helpText
+
     const audio = new Audio ("./auds/stats.mp3");
     audio.play()
+    window.localStorage.setItem('viewedhelpU', "viewed");
  //   helpEl.requestFullscreen();
   });
 
@@ -1264,6 +1422,43 @@ function initHelpModal() {
     }
   });
 }
+
+function initViewHelpModal() {
+  const modal = document.getElementById("view-help-modal");
+
+  // Get the <span> element that closes the modal
+  const span = document.getElementById("close-view-help");
+
+
+  // Open the modal if the user has not read the help
+    if (!window.localStorage.getItem("viewedhelpU")){
+      modal.style.display = "block";
+      console.log("initViewHelpModal")
+      viewHelpEl = document.getElementById("view-help")
+      viewHelpEl.innerHTML = viewHelpText
+    } else {
+      return;
+    }
+  //  const audio = new Audio ("./auds/stats.mp3");
+  //  audio.play()
+
+
+  // When the user clicks on <span> (x), close the modal
+  span.addEventListener("click", function () {
+    modal.style.display = "none";
+  });
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.addEventListener("click", function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+}
+
+
+
+
 
 function updateStatsModal(){
   const currentStreak = window.localStorage.getItem("currentStreakU");
@@ -1331,11 +1526,11 @@ function initStatsModal() {
 
       // When the user clicks on Yes, clear history via localstorage clear the results tray and close delete modal
       yesEl.addEventListener("click", function () {
-        localStorage.removeItem("results")
-        localStorage.removeItem("currentStreak")
-        localStorage.removeItem("maxStreak")
-        localStorage.removeItem("totalWins")
-        localStorage.removeItem("totalGames")
+        localStorage.removeItem("resultsU")
+        localStorage.removeItem("currentStreakU")
+        localStorage.removeItem("maxStreakU")
+        localStorage.removeItem("totalWinsU")
+        localStorage.removeItem("totalGamesU")
         const resultsTrayEl = document.getElementById("results-tray");
         resultsTrayEl.innerHTML = ""
         delModal.style.display = "none";
@@ -1727,9 +1922,10 @@ function playMusic(){
 }
 
 
+
 function initPreferencesModal() {
 
-
+  console.log("entered initpreferences")
   const modal = document.getElementById("preferences-modal");
   // Get the button that opens the preferences modal
   const btn = document.getElementById("preferences");
@@ -1749,6 +1945,21 @@ function initPreferencesModal() {
   const textAreaEl = document.querySelector("textarea");
  // preferencesContainerEl.style.display="none"
   portraitPreferencesContainerEl.style.display="none"
+
+
+  
+
+let randomImagesEl = document.querySelectorAll('#random-bg-container img');
+for (i=0; i<6; i++){
+  randomImagesEl[i].src = backgroundImagesLandscape[i];
+}
+
+
+let oneImagesEl = document.querySelectorAll('#one-bg-container img');
+for (i=0; i<6; i++){
+  oneImagesEl[i].src = backgroundImagesLandscape[i];
+}
+
 
   // When the user clicks on the button, open the modal
   btn.addEventListener("click", function () {
@@ -1784,9 +1995,9 @@ function initPreferencesModal() {
 
     // When the user clicks anywhere outside of the modal, close it
     textAreaEl.addEventListener("keydown", function (event) {
-      var key = event.keyCode;
+      var key = event.key;
       // If the user has pressed enter
-      if (key === 13) {
+      if (key === 'Enter') {
         console.log("enter key pressed " + textAreaEl.value)
         const body = document.getElementsByTagName('body')[0];
         body.style.backgroundImage = "url(" + textAreaEl.value + ")"
@@ -1830,6 +2041,9 @@ function initPreferencesModal() {
 
       initBgAudios();
       initChameleon();
+      initValidate();
+
+  //    initFreeSpaces();
     }
 
 
@@ -1892,6 +2106,49 @@ function initChameleon() {
           });
   }
 
+
+
+  function initValidate() {
+
+    const validateEl = document.getElementById("validate")
+  
+
+    // Check validate value in localstorage
+    validate = JSON.parse(window.localStorage.getItem('validateU'));
+    
+
+
+    if (validate){
+        validateEl.style.color = 'black';
+        validateEl.style.fontWeight = 'bold';
+      } else {
+        validateEl.style.color = 'gray'; 
+        validateEl.style.fontWeight = 'normal';
+      }
+  
+      validateEl.addEventListener("click", ({ target }) => {
+        console.log("clicked validate")
+          validate = !validate;
+          if (validate) {
+            window.localStorage.setItem("validateU", "true");
+          } else {
+            window.localStorage.setItem("validateU", "false");
+          } 
+
+          if (validate){
+            validateEl.style.color = 'black';
+            validateEl.style.fontWeight = 'bold';
+            const audio = new Audio ("./auds/shortgood.mp3");
+            audio.play()
+          } else {
+            validateEl.style.color = 'gray'; 
+            validateEl.style.fontWeight = 'normal';
+            const audio = new Audio ("./auds/pop39222.mp3");
+            audio.play() 
+          }
+            });
+    }
+ 
 
 
   // DANCE TILES FROM WEBDEV SIMPLIFIED
