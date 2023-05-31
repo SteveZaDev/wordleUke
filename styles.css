@@ -233,6 +233,13 @@ button.correct-letter-in-place {
   display: none;
 }
 
+#pronounce:hover{
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+
 /* MODAL POPUP CSS  */
 #help-modal {
   display: none;
