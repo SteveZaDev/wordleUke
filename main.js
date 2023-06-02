@@ -160,10 +160,473 @@ let protoWordsArray = [
       word: "цісар",
       eng: "EMPEROR",
       pro: ""
+    },
+    {
+      word: "такий",
+      eng: "SUCH",
+      pro: ""
+    },
+    {
+      word: "знати",
+      eng: "KNOW",
+      pro: ""
+    },
+    {
+      word: "могти",
+      eng: "BE ABLE",
+      pro: ""
+    },
+    {
+      word: "тепер",
+      eng: "NOW",
+      pro: ""
+    },
+    {
+      word: "увесь",
+      eng: "ALL",
+      pro: ""
+    },
+    {
+      word: "треба",
+      eng: "NEED",
+      pro: ""
+    },
+    {
+      word: "слово",
+      eng: "WORD",
+      pro: ""
+    },
+    {
+      word: "земля",
+      eng: "EARTH",
+      pro: ""
+    },
+    {
+      word: "життя",
+      eng: "LIFE",
+      pro: ""
+    },
+    {
+      word: "перед",
+      eng: "BEFORE",
+      pro: ""
+    },
+    {
+      word: "потім",
+      eng: "THEN",
+      pro: ""
+    },
+    {
+      word: "можна",
+      eng: "PERHAPS",
+      pro: ""
+    },
+    {
+      word: "через",
+      eng: "BY",
+      pro: ""
+    },
+    {
+      word: "знову",
+      eng: "AGAIN",
+      pro: ""
+    },
+    {
+      word: "жінка",
+      eng: "WOMAN",
+      pro: ""
+    },
+    {
+      word: "зараз",
+      eng: "NOW",
+      pro: ""
+    },
+    {
+      word: "місце",
+      eng: "PLACE",
+      pro: ""
+    },
+    {
+      word: "новий",
+      eng: "NEW",
+      pro: ""
+    },
+    {
+      word: "після",
+      eng: "AFTER",
+      pro: ""
+    },
+    {
+      word: "добре",
+      eng: "FINE",
+      pro: ""
+    },
+    {
+      word: "їхній",
+      eng: "THEIR",
+      pro: ""
+    },
+    {
+      word: "голос",
+      eng: "VOICE",
+      pro: ""
+    },
+    {
+      word: "двері",
+      eng: "DOORS",
+      pro: ""
+    },
+    {
+      word: "думка",
+      eng: "THOUGHT",
+      pro: ""
+    },
+    {
+      word: "трохи",
+      eng: "SLIGHTLY",
+      pro: ""
+    },
+    {
+      word: "серце",
+      eng: "HEART",
+      pro: ""
+    },
+    {
+      word: "хтось",
+      eng: "SOMEONE",
+      pro: ""
+    },
+    {
+      word: "ніхто",
+      eng: "NOBODY",
+      pro: ""
+    },
+    {
+      word: "сонце",
+      eng: "SUN",
+      pro: ""
+    },
+    {
+      word: "народ",
+      eng: "PEOPLE",
+      pro: ""
+    },
+    {
+      word: "разом",
+      eng: "TOGETHER",
+      pro: ""
+    },
+    {
+      word: "місто",
+      eng: "CITY",
+      pro: ""
+    },
+    {
+      word: "плече",
+      eng: "SHOULDER",
+      pro: ""
+    },
+    {
+      word: "вікно",
+      eng: "WINDOW",
+      pro: ""
+    },
+    {
+      word: "серед",
+      eng: "AMONG",
+      pro: ""
+    },
+    {
+      word: "також",
+      eng: "ALSO",
+      pro: ""
+    },
+    {
+      word: "стіна",
+      eng: "WALL",
+      pro: ""
+    },
+    {
+      word: "взяти",
+      eng: "TAKE",
+      pro: ""
+    },
+    {
+      word: "довго",
+      eng: "LONG",
+      pro: ""
+    },
+    {
+      word: "цілий",
+      eng: "WHOLE",
+      pro: ""
+    },
+    {
+      word: "немає",
+      eng: "DO NOT HAVE",
+      pro: ""
+    },
+    {
+      word: "білий",
+      eng: "WHITE",
+      pro: ""
+    },
+    {
+      word: "князь",
+      eng: "PRINCE",
+      pro: ""
+    },
+    {
+      word: "проти",
+      eng: "AGAINST",
+      pro: ""
+    },
+    {
+      word: "проте",
+      eng: "HOWEVER",
+      pro: ""
+    },
+    {
+      word: "видно",
+      eng: "SEEN",
+      pro: ""
     }
-    ]
-  },  
-  { 
+    ,
+    {
+      word: "якось",
+      eng: "SOMEHOW",
+      pro: ""
+    }
+    ,
+    {
+      word: "давно",
+      eng: "LONG",
+      pro: ""
+    },
+    {
+      word: "краще",
+      eng: "BETTER",
+      pro: ""
+    },
+    {
+      word: "увага",
+      eng: "ATTENTION",
+      pro: ""
+    },
+    {
+      word: "їхати",
+      eng: "RIDE",
+      pro: ""
+    },
+    {
+      word: "вітер",
+      eng: "WIND",
+      pro: ""
+    },
+    {
+      word: "стало",
+      eng: "BECOME",
+      pro: ""
+    },
+    {
+      word: "хвиля",
+      eng: "WAVE",
+      pro: ""
+    },
+    {
+      word: "козак",
+      eng: "COSSAK",
+      pro: ""
+    },
+    {
+      word: "ворог",
+      eng: "ENEMY",
+      pro: ""
+    },
+    {
+      word: "крізь",
+      eng: "THROUGH",
+      pro: ""
+    },
+    {
+      word: "сісти",
+      eng: "SIT DOWN",
+      pro: ""
+    },
+    {
+      word: "вечір",
+      eng: "EVENING",
+      pro: ""
+    },
+    {
+      word: "назад",
+      eng: "BACK",
+      pro: ""
+    },
+    {
+      word: "малий",
+      eng: "LITTLE",
+      pro: ""
+    },
+    {
+      word: "спати",
+      eng: "SLEEP",
+      pro: ""
+    },
+    {
+      word: "важко",
+      eng: "HARD",
+      pro: ""
+    },
+    {
+      word: "чужий",
+      eng: "ALIEN",
+      pro: ""
+    },
+    {
+      word: "школа",
+      eng: "SCHOOL",
+      pro: ""
+    },
+    {
+      word: "берег",
+      eng: "BANK",
+      pro: ""
+    },
+    {
+      word: "влада",
+      eng: "POWER",
+      pro: ""
+    },
+    {
+      word: "щастя",
+      eng: "HAPPINESS",
+      pro: ""
+    },
+    {
+      word: "любов",
+      eng: "LOVE",
+      pro: ""
+    },
+    {
+      word: "тобто",
+      eng: "THAT IS",
+      pro: ""
+    },
+    {
+      word: "невже",
+      eng: "REALLY",
+      pro: ""
+    },
+    {
+      word: "завтра",
+      eng: "TOMORROW",
+      pro: ""
+    },
+    {
+      word: "надто",
+      eng: "TOO",
+      pro: ""
+    },
+    {
+      word: "кожен",
+      eng: "EVERY",
+      pro: ""
+    },
+    {
+      word: "праця",
+      eng: "LABOR",
+      pro: ""
+    },
+    {
+      word: "немов",
+      eng: "LIKE",
+      pro: ""
+    },
+    {
+      word: "нехай",
+      eng: "LET",
+      pro: ""
+    },
+    {
+      word: "ліжко",
+      eng: "BED",
+      pro: ""
+    },
+    {
+      word: "розум",
+      eng: "MIND",
+      pro: ""
+    },
+    {
+      word: "поруч",
+      eng: "CLOSE",
+      pro: ""
+    },
+    {
+      word: "слава",
+      eng: "GLORY",
+      pro: ""
+    },
+    {
+      word: "часто",
+      eng: "OFTEN",
+      pro: ""
+    },
+    {
+      word: "книга",
+      eng: "BOOK",
+      pro: ""
+    },
+    {
+      word: "брати",
+      eng: "BROTHERS",
+      pro: ""
+    },
+    {
+      word: "річка",
+      eng: "RIVER",
+      pro: ""
+    },
+    {
+      word: "певно",
+      eng: "PROBABLY",
+      pro: ""
+    },
+    {
+      word: "надія",
+      eng: "HOPE",
+      pro: ""
+    },
+    {
+      word: "наука",
+      eng: "SCIENCE",
+      pro: ""
+    },
+    {
+      word: "зайти",
+      eng: "ENTER",
+      pro: ""
+    },
+    {
+      word: "легко",
+      eng: "EASY",
+      pro: ""
+    },
+    {
+      word: "сотня",
+      eng: "HUNDRED",
+      pro: ""
+    },
+    {
+      word: "",
+      eng: "",
+      pro: ""
+    }
+  ]
+},
+{ 
+  
     cat: "6 Letter Words",
     sel: false,
     parent: "",
@@ -171,6 +634,11 @@ let protoWordsArray = [
     items: [{
       word: "цариця",
       eng: "QUEEN",
+      pro: ""
+    },
+    {
+      word: "тільки",
+      eng: "ONLY",
       pro: ""
     }
     ]
@@ -183,6 +651,11 @@ let protoWordsArray = [
     items: [{
       word: "цариця",
       eng: "QUEEN",
+      pro: ""
+    },
+    {
+      word: "сказати",
+      eng: "SAY",
       pro: ""
     }
     ]
@@ -230,7 +703,7 @@ let protoWordsArray = [
     parent: "",
     numOfItems: 0,
     items: [    {
-      word: "на добраніч",
+      word: "тільки",
       eng: "Good Night",
       pro: "./pros/goodnight.m4a"
     },
@@ -253,7 +726,7 @@ const backgroundImagesLandscape=[
   "https://nucc.no/wp-content/uploads/2020/03/Lviv-1536x1024.jpeg",
   "https://ukrainecitytours.com/wp-content/uploads/2019/09/Lviv.jpg",
   "https://cdn.wallpapersafari.com/91/69/ZGz0cV.jpg",
-  "http://touchukraine.com/wp-content/uploads/2017/03/Kyiv-tours2.jpg"
+  "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/49_20HQOeijh9fog1/ukraine-kiev-july-30-2011-4k-4096x2304-timelapse-people-on-independence-square-in-kiev-kiev-is-the-capital-of-ukraine-located-in-the-north-central-part-of-the-country-on-the-dnieper-river_vui2fpwkx_thumbnail-1080_01.png"
 ]
 
 const audios=[ {name: "default",
@@ -828,7 +1301,10 @@ allElements.forEach((element) => {
         // Play again
         playButtonEl.innerText = "Грай знову?";
         playButtonEl.style.display = "block";
-        pronounceButtonEl.style.display = "block";
+        if (wordsArray[randomArray].cat === "Meeting Someone"){
+           pronounceButtonEl.style.display = "block";
+        }
+
 
     //    messageContainerEl.innerText = ""
     }, 4500);
@@ -872,7 +1348,9 @@ allElements.forEach((element) => {
      //   messageContainerEl.innerText = ""
         playButtonEl.innerText = "Грай знову?";
         playButtonEl.style.display = "block";
-        pronounceButtonEl.style.display = "block";
+        if (wordsArray[randomArray].cat === "Meeting Someone"){
+          pronounceButtonEl.style.display = "block";
+       }
     }, 4500);
 
 
