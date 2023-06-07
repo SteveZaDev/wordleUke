@@ -619,6 +619,406 @@ let protoWordsArray = [
       pro: ""
     },
     {
+      word: "трава",
+      eng: "GRASS",
+      pro: ""
+    },
+    {
+      word: "ледве",
+      eng: "BARELY",
+      pro: ""
+    },
+    {
+      word: "дочка",
+      eng: "DAUGHTER",
+      pro: ""
+    },
+    {
+      word: "роман",
+      eng: "NOVEL",
+      pro: ""
+    },
+    {
+      word: "сірий",
+      eng: "GRAY",
+      pro: ""
+    },
+    {
+      word: "ждати",
+      eng: "WAIT",
+      pro: ""
+    },
+    {
+      word: "хмара",
+      eng: "CLOUD",
+      pro: ""
+    },
+    {
+      word: "поріг",
+      eng: "THRESHOLD",
+      pro: ""
+    },
+    {
+      word: "скоро",
+      eng: "SHORTLY",
+      pro: ""
+    },
+    {
+      word: "війна",
+      eng: "WAR",
+      pro: ""
+    },
+    {
+      word: "тихий",
+      eng: "QUIET",
+      pro: ""
+    },
+    {
+      word: "вміти",
+      eng: "BE ABLE",
+      pro: ""
+    },
+    {
+      word: "лікар",
+      eng: "DOCTOR",
+      pro: ""
+    },
+    {
+      word: "божий",
+      eng: "DIVINE",
+      pro: ""
+    },
+    {
+      word: "щойно",
+      eng: "JUST",
+      pro: ""
+    },
+    {
+      word: "нести",
+      eng: "CARRY",
+      pro: ""
+    },
+    {
+      word: "вести",
+      eng: "CONDUCT",
+      pro: ""
+    },
+    {
+      word: "армія",
+      eng: "ARMY",
+      pro: ""
+    },
+    {
+      word: "група",
+      eng: "GROUP",
+      pro: ""
+    },
+    {
+      word: "вночі",
+      eng: "AT NIGHT",
+      pro: ""
+    },
+    {
+      word: "табір",
+      eng: "CAMP",
+      pro: ""
+    },
+    {
+      word: "іноді",
+      eng: "SOMETIMES",
+      pro: ""
+    },
+    {
+      word: "стати",
+      eng: "BECOME",
+      pro: ""
+    },
+    {
+      word: "папір",
+      eng: "PAPER",
+      pro: ""
+    },
+    {
+      word: "човен",
+      eng: "BOAT",
+      pro: ""
+    },
+    {
+      word: "поміж",
+      eng: "BETWEEN",
+      pro: ""
+    },
+    {
+      word: "якраз",
+      eng: "RIGHT",
+      pro: ""
+    },
+    {
+      word: "город",
+      eng: "GARDEN",
+      pro: ""
+    },
+    {
+      word: "особа",
+      eng: "PERSON",
+      pro: ""
+    },
+    {
+      word: "центр",
+      eng: "CENTER",
+      pro: ""
+    },
+    {
+      word: "гроші",
+      eng: "MONEY",
+      pro: ""
+    },
+    {
+      word: "черга",
+      eng: "TURN",
+      pro: ""
+    },
+    {
+      word: "понад",
+      eng: "OVER",
+      pro: ""
+    },
+    {
+      word: "сухий",
+      eng: "DRY",
+      pro: ""
+    },
+    {
+      word: "дивно",
+      eng: "STRANGELY",
+      pro: ""
+    },
+    {
+      word: "спосіб",
+      eng: "WAY",
+      pro: ""
+    },
+    {
+      word: "зразу",
+      eng: "AT ONCE",
+      pro: ""
+    },
+    {
+      word: "вбити",
+      eng: "KILL",
+      pro: ""
+    },
+    {
+      word: "узяти",
+      eng: "TAKE UP",
+      pro: ""
+    },
+    {
+      word: "наказ",
+      eng: "ORDER",
+      pro: ""
+    },
+    {
+      word: "ласка",
+      eng: "WEASEL",
+      pro: ""
+    },
+    {
+      word: "захід",
+      eng: "WEST",
+      pro: ""
+    },
+    {
+      word: "вихід",
+      eng: "OUTPUT",
+      pro: ""
+    },
+    {
+      word: "куток",
+      eng: "CORNER",
+      pro: ""
+    },
+    {
+      word: "спина",
+      eng: "BACK",
+      pro: ""
+    },
+    {
+      word: "зброя",
+      eng: "WEAPON",
+      pro: ""
+    },
+    {
+      word: "зняти",
+      eng: "WITHDRAW",
+      pro: ""
+    },
+    {
+      word: "менше",
+      eng: "LESS",
+      pro: ""
+    },
+    {
+      word: "більш",
+      eng: "MORE",
+      pro: ""
+    },
+    {
+      word: "вгору",
+      eng: "TOP",
+      pro: ""
+    },
+    {
+      word: "право",
+      eng: "RIGHT",
+      pro: ""
+    },
+    {
+      word: "буває",
+      eng: "HAPPENS",
+      pro: ""
+    },
+    {
+      word: "точно",
+      eng: "EXACTLY",
+      pro: ""
+    },
+    {
+      word: "дійти",
+      eng: "REACH",
+      pro: ""
+    },
+    {
+      word: "герой",
+      eng: "HERO",
+      pro: ""
+    },
+    {
+      word: "колір",
+      eng: "COLOR",
+      pro: ""
+    },
+    {
+      word: "вчора",
+      eng: "YESTERDAY",
+      pro: ""
+    },
+    {
+      word: "шапка",
+      eng: "HAT",
+      pro: ""
+    },
+    {
+      word: "мовби",
+      eng: "AS THOUGH",
+      pro: ""
+    },
+    {
+      word: "дикий",
+      eng: "WILD",
+      pro: ""
+    },
+    {
+      word: "сивий",
+      eng: "GRAY",
+      pro: ""
+    },
+    {
+      word: "чобіт",
+      eng: "BOOT",
+      pro: ""
+    },
+    {
+      word: "кухня",
+      eng: "KITCHEN",
+      pro: ""
+    },
+    {
+      word: "шкіра",
+      eng: "SKIN",
+      pro: ""
+    },
+    {
+      word: "скеля",
+      eng: "ROCK",
+      pro: ""
+    },
+    {
+      word: "честь",
+      eng: "HONOR",
+      pro: ""
+    },
+    {
+      word: "решта",
+      eng: "REST",
+      pro: ""
+    },
+    {
+      word: "шкода",
+      eng: "DAMAGE",
+      pro: ""
+    },
+    {
+      word: "страх",
+      eng: "FEAR",
+      pro: ""
+    },
+    {
+      word: "пісок",
+      eng: "SAND",
+      pro: ""
+    },
+    {
+      word: "туман",
+      eng: "FOG",
+      pro: ""
+    },
+    {
+      word: "поряд",
+      eng: "NEAR",
+      pro: ""
+    },
+    {
+      word: "нація",
+      eng: "NATION",
+      pro: ""
+    },
+    {
+      word: "бодай",
+      eng: "AT LEAST",
+      pro: ""
+    },
+    {
+      word: "брова",
+      eng: "EYEBROW",
+      pro: ""
+    },
+    {
+      word: "стежка",
+      eng: "TRAIL",
+      pro: ""
+    },
+    {
+      word: "номер",
+      eng: "NUMBER",
+      pro: ""
+    },
+    {
+      word: "прямо",
+      eng: "RIGHT",
+      pro: ""
+    },
+    {
+      word: "пісня",
+      eng: "SONG",
+      pro: ""
+    },
+    {
+      word: "хрест",
+      eng: "CROSS",
+      pro: ""
+    },
+    {
       word: "",
       eng: "",
       pro: ""
@@ -626,7 +1026,6 @@ let protoWordsArray = [
   ]
 },
 { 
-  
     cat: "6 Letter Words",
     sel: false,
     parent: "",
@@ -640,7 +1039,328 @@ let protoWordsArray = [
       word: "тільки",
       eng: "ONLY",
       pro: ""
+    },
+    {
+      word: "хотіти",
+      eng: "WANT",
+      pro: ""
+    },
+    {
+      word: "навіть",
+      eng: "EVEN",
+      pro: ""
+    },
+    {
+      word: "казати",
+      eng: "SPEAK",
+      pro: ""
+    },
+    {
+      word: "інший",
+      eng: "OTHER",
+      pro: ""
+    },
+    {
+      word: "якийсь",
+      eng: "OTHER",
+      pro: ""
+    },
+    {
+      word: "голова",
+      eng: "CHAIRMAN",
+      pro: ""
+    },
+    {
+      word: "бачити",
+      eng: "SEE",
+      pro: ""
+    },
+    {
+      word: "стояти",
+      eng: "STAND",
+      pro: ""
+    },
+    {
+      word: "думати",
+      eng: "THINK",
+      pro: ""
+    },
+    {
+      word: "почати",
+      eng: "BEGIN",
+      pro: ""
+    },
+    {
+      word: "старий",
+      eng: "OLD",
+      pro: ""
+    },
+    {
+      word: "більше",
+      eng: "MORE",
+      pro: ""
+    },
+    {
+      word: "просто",
+      eng: "SIMPLY",
+      pro: ""
+    },
+    {
+      word: "людина",
+      eng: "MAN",
+      pro: ""
+    },
+    {
+      word: "робити",
+      eng: "DO",
+      pro: ""
+    },
+    {
+      word: "чоловік",
+      eng: "MAN",
+      pro: ""
+    },
+    {
+      word: "зовсім",
+      eng: "COMPLETELY",
+      pro: ""
+    },
+    {
+      word: "другий",
+      eng: "SECOND",
+      pro: ""
+    },
+    {
+      word: "чорний",
+      eng: "BLACK",
+      pro: ""
+    },
+    {
+      word: "батько",
+      eng: "FATHER",
+      pro: ""
+    },
+    {
+      word: "ніколи",
+      eng: "NEVER",
+      pro: ""
+    },
+    {
+      word: "правда",
+      eng: "TRUTH",
+      pro: ""
+    },
+    {
+      word: "давати",
+      eng: "GIVE",
+      pro: ""
+    },
+    {
+      word: "погляд",
+      eng: "VIEW",
+      pro: ""
+    },
+    {
+      word: "багато",
+      eng: "MUCH",
+      pro: ""
+    },
+    {
+      word: "раптом",
+      eng: "SUDDENLY",
+      pro: ""
+    },
+    {
+      word: "завжди",
+      eng: "ALWAYS",
+      pro: ""
+    },
+    {
+      word: "любити",
+      eng: "LIKE",
+      pro: ""
+    },
+    {
+      word: "прийти",
+      eng: "COME",
+      pro: ""
+    },
+    {
+      word: "ходити",
+      eng: "WALK",
+      pro: ""
+    },
+    {
+      word: "мабуть",
+      eng: "PROBABLY",
+      pro: ""
+    },
+    {
+      word: "котрий",
+      eng: "WHICH",
+      pro: ""
+    },
+    {
+      word: "чекати",
+      eng: "EXPECT",
+      pro: ""
+    },
+    {
+      word: "знайти",
+      eng: "FIND",
+      pro: ""
+    },
+    {
+      word: "смерть",
+      eng: "DEATH",
+      pro: ""
+    },
+    {
+      word: "лежати",
+      eng: "LIE",
+      pro: ""
+    },
+    {
+      word: "мусити",
+      eng: "COMPEL",
+      pro: ""
+    },
+    {
+      word: "колись",
+      eng: "EVER",
+      pro: ""
+    },
+    {
+      word: "справа",
+      eng: "CASE",
+      pro: ""
+    },
+    {
+      word: "шукати",
+      eng: "SEARCH",
+      pro: ""
+    },
+    {
+      word: "довгий",
+      eng: "LONG",
+      pro: ""
+    },
+    {
+      word: "писати",
+      eng: "WRITE",
+      pro: ""
+    },
+    {
+      word: "вулиця",
+      eng: "STREET",
+      pro: ""
+    },
+    {
+      word: "палець",
+      eng: "FINGER",
+      pro: ""
+    },
+    {
+      word: "почути",
+      eng: "HEAR",
+      pro: ""
+    },
+    {
+      word: "година",
+      eng: "TIME",
+      pro: ""
+    },
+    {
+      word: "дерево",
+      eng: "TREE",
+      pro: ""
+    },
+    {
+      word: "швидко",
+      eng: "QUICKLY",
+      pro: ""
+    },
+    {
+      word: "машина",
+      eng: "CAR",
+      pro: ""
+    },
+    {
+      word: "місяць",
+      eng: "MONTH",
+      pro: ""
+    },
+    {
+      word: "тисяча",
+      eng: "ONE THOUSAND",
+      pro: ""
+    },
+    {
+      word: "мовити",
+      eng: "SPEAK",
+      pro: ""
+    },
+    {
+      word: "одразу",
+      eng: "AT ONCE",
+      pro: ""
+    },
+    {
+      word: "забути",
+      eng: "FORGET",
+      pro: ""
+    },
+    {
+      word: "вогонь",
+      eng: "FIRE",
+      pro: ""
+    },
+    {
+      word: "кинути",
+      eng: "THROW",
+      pro: ""
+    },
+    {
+      word: "читати",
+      eng: "READ",
+      pro: ""
+    },
+    {
+      word: "вірити",
+      eng: "BELIEVE",
+      pro: ""
+    },
+    {
+      word: "ніякий",
+      eng: "NO",
+      pro: ""
+    },
+    {
+      word: "досить",
+      eng: "PRETTY",
+      pro: ""
+    },
+    {
+      word: "схожий",
+      eng: "SIMILAR",
+      pro: ""
+    },
+    {
+      word: "додому",
+      eng: "HOME",
+      pro: ""
+    },
+    {
+      word: "дорога",
+      eng: "ROAD",
+      pro: ""
+    },
+    {
+      word: "",
+      eng: "",
+      pro: ""
     }
+
     ]
   },
   { 
