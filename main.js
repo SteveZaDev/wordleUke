@@ -3174,22 +3174,10 @@ for (i=0; i<6; i++){
     }
   });
 
-    // When the user clicks anywhere outside of the modal, close it
-    textAreaEl.addEventListener("keydown", function (event) {
-      var key = event.key;
-      // If the user has pressed enter
-      if (key === 'Enter') {
-        console.log("enter key pressed " + textAreaEl.value)
-        const body = document.getElementsByTagName('body')[0];
-        body.style.backgroundImage = "url(" + textAreaEl.value + ")"
-        window.localStorage.setItem('backgroundU', JSON.stringify(textAreaEl.value));
-      }
-    });
 
 
 
     textAreaEl.addEventListener("selectionchange", function (event) {
-  //    editLandscapeImgEl.src = landscapeTextEl.value
       const body = document.getElementsByTagName('body')[0];
       body.style.backgroundImage = "url(" + textAreaEl.value + ")"
       window.localStorage.setItem('backgroundU', JSON.stringify(textAreaEl.value));
